@@ -1,3 +1,15 @@
+"""
+The "Yield Curve Bootstrapping" Task
+
+The Problem:
+
+You are given market prices for a series of bonds with different maturities. The Goal: Write a function to solve for the Zero Rates (rt​) iteratively.
+
+Key skill:
+
+Using a root-finding algorithm (like scipy.optimize.newton) or an iterative loop that correctly identifies the next discount factor DF(t) based on previous results.
+"""
+
 import numpy as np
 
 def calculate_zero_rates_bootstrap(coupons, maturities, principal = 100):
