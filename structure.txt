@@ -1,0 +1,8 @@
+fixed_income_lib/
+├── analytics/
+│   ├── __init__.py
+│   ├── curves.py         # Bootstrapping & PV01
+│   ├── lending.py        # Prepayments & NMD
+│   └── banking_risk.py   # NII & Basis Risk
+├── main.py               # Demonstration script
+└── README.md             # Project documentation
