@@ -1,4 +1,4 @@
-# Fixed Income & ATM Analytics
+# Fixed Income Analytics
 
 A Python library for Fixed Income analytics, Asset-Liability Management (ALM), and Banking Risk simulation. Designed for quantitative researchers and risk managers.
 
